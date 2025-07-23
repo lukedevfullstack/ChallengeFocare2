@@ -1,7 +1,7 @@
-namespace ChallengeFocare2.Domain
+namespace ChallengeFocare2.Domain.Interfaces
 {
     public interface ISearchService
     {
-        void GetTopResultTitles(int numberOfResults);
+        void OpenGoogleAndFilterTopResults(int maxResults);
     }
 }
